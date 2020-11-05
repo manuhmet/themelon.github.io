@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+body {
+  color: black;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: whitesmoke;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+a {
+  color: purple;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff9d5c;
+}
+
+/* HEADER */
+
+#header a {
+  color: white;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header-title {
+  display: block;
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.header a:hover {
+  color: #ff9d5c;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.header {
+  background-color: #2f2f2f;
+  height: 150px;
+  line-height: 150px;
+}
+
+.footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer h4 {
+  color: #ff9d5c;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.footer p {
+  color: white;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container a button {
+  border: 1px solid;
+  padding: 10px 10px 10px 10px;
+  background-color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
+
+.container a button:hover {
+  background-color: #ff9d5c;
+  transition: 0.3s;
+}
+
+input, textarea {
+  background-color: whitesmoke;
+  border: 1px solid;
+  resize: none;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  background-color: purple;
+  height: 250px;
+
+}
+
+.column2 h3 {
+  text-align: center;
+  height: 46px;
+}
+
+.column2:hover {
+  background-color: #ff9d5c;
+  transition: 0.3s;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
